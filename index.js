@@ -6,7 +6,7 @@ const PORT = 3000;
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-app.use(express.static('assets'));
+app.use(express.static(__dirname)); //it uses the folder which contains this index.js file
 
 app.get('/', (req, res) => {
   res.render('home', { pictureList });
