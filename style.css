@@ -2,12 +2,22 @@ body {
   background-image: radial-gradient(white 5%, grey 130%);
   justify-content: center;
   align-content: center;
+  margin: 0px;
 }
 
 .mainPicture {
-  margin: 20 auto;
+  /* margin: 10% auto; */
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
   display: flex;
   max-width: 90%;
-  max-height: 50px;
+  height: 400px;
   background-color: white;
+  box-shadow: 5px 5px #888888;
+}
+
+.item {
+  min-width: 100px;
 }
