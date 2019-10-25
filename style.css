@@ -1,0 +1,18 @@
+body {
+  background-image: radial-gradient(white 5%, black 125%, grey 130%);
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  max-width: 500px;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  height: 400px;
+}
+
+.item {
+  height: 100px;
+  min-width: 100%;
+}
