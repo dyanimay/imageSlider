@@ -22,12 +22,22 @@ body {
 .picture {
   flex-grow: 2;
   align-items: flex-end;
+  background-color: #888888;
+}
+
+.currentPicture {
 }
 
 .pictureTitle {
   width: 100%;
   height: 100px;
   background-color: blueviolet;
+  opacity: 0.3;
+}
+
+h1, p {
+  color: white;
+  margin: 10px;
 }
 
 .arrowImage {
