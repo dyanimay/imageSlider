@@ -10,7 +10,6 @@ body {
   height: 400px;
   background-color: white;
   box-shadow: 8px 8px 10px #888888;
-
 }
 
 .item {
@@ -22,11 +21,13 @@ body {
 
 .picture {
   flex-grow: 2;
-  
+  align-items: flex-end;
 }
 
-.current {
-  object-fit: contain;
+.pictureTitle {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
 }
 
 .arrowImage {
