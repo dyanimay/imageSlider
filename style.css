@@ -16,13 +16,17 @@ body {
   min-width: 100px;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 
 .arrowImage {
   height: 20px;
   width: 20px;
   height: 100%;
-  width: 100%;
   display: inline-block;
   vertical-align: middle;
+}
+
+.next {
+  transform: rotateY(180deg);
 }
