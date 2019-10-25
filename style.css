@@ -55,3 +55,9 @@ h1, p {
   display: flex;
   max-width: 60%;
 }
+
+.lilThumb {
+  list-style: none;
+  display: inline-block;
+  margin: 2%;
+}
