@@ -22,6 +22,11 @@ body {
 
 .picture {
   flex-grow: 2;
+  
+}
+
+.current {
+  object-fit: contain;
 }
 
 .arrowImage {
