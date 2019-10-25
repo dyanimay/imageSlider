@@ -1,23 +1,21 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
-const cocktails = [
-  { title: 'the first picture', link: "../valami"},
-];
 
+app.use(express.static('assets'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-
-app.get('/', function(req, res){
-    res.render('home', {
-      todos
-    });
-  }
-)
+// home page
+app.get('/', (req, res) => {
+  // render `home.ejs`
+  res.render('home', {
+    title: 'Hello World!',
+  });
+});
 
 // start express app on port 3000
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+  console.log(`Listening on port ${PORT}`)
 });
